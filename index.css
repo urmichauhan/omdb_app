@@ -1,0 +1,44 @@
+.container-fluid {
+    margin:0.5rem;
+}
+.f {
+    font-family: "Georgia", serif ;
+    font-size: 3rem;
+    color:#CCCCCC;
+    text-shadow: 1px 3px 1px #006666;
+}
+.i {
+    width:15vw;
+    height:15vh;
+}
+#sform 
+{
+    order:2;
+    align-self: center;
+    padding-top:3vh;
+}
+#sbtn , #rbtn{
+   background-color: #996666;
+   color: #FFFFCC ;
+   border-color: #663333;
+   
+}
+#searchtitle, #searchyear, #searchid {
+     
+     border-color: #663333;
+     
+}
+
+.card {
+    width:60vw;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 620px) {
+    .container-fluid {
+        margin:0.3rem;
+    }
+    .f {
+        font-size: 2rem;
+    }
+    
+}
